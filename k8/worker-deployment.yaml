@@ -15,8 +15,5 @@ spec:
       containers:
       - name: worker
         image: stephengrider/multi-worker
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
+        
         
